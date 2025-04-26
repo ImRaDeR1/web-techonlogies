@@ -1,0 +1,58 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fafafa; /* Светлый фон */
+    color: #333; /* Темный цвет текста */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Белый фон контейнера */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    width: 400px;
+    text-align: center;
+    border: 2px solid #007BFF; /* Синяя рамка */
+}
+
+header {
+    margin-bottom: 30px;
+    font-size: 26px; /* Увеличенный размер шрифта заголовка */
+    color: #007BFF; /* Синий цвет заголовка */
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение кнопок */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px; /* Размер кнопки */
+    margin: 10px 0; /* Вертикальный отступ между кнопками */
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #28a745; /* Зеленый цвет кнопок */
+    color: white; /* Белый текст кнопок */
+    transition: background-color 0.3s, transform 0.2s; /* Плавное изменение цвета и анимация */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Более темный зеленый при наведении */
+    transform: translateY(-2px); /* Легкое поднятие кнопки при наведении */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555; /* Темный цвет для результата */
+    border-top: 1px solid #ccc; /* Линия сверху для отделения */
+    padding-top: 10px;
+}

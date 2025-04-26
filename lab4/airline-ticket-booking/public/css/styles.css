@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f0f0; /* Светлый фон */
+    color: #333333; /* Темный текст */
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; /* Центрирование по горизонтали */
+    height: 100vh; /* Высота на весь экран */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+h1 {
+    color: #ff5733; /* Оранжевый цвет заголовка */
+    text-align: center; /* Центрированный текст заголовка */
+}
+
+a {
+    color: #ff5733; /* Оранжевый цвет ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении на ссылку */
+}
+
+form {
+    background-color: #ffffff; /* Белый фон для форм */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    margin-bottom: 20px;
+}
+
+label {
+    color: #ff5733; /* Оранжевый цвет надписей */
+}
+
+input {
+    display: block;
+    margin: 15px 0;
+    padding: 12px;
+    border: 2px solid #ff5733; /* Оранжевая рамка для полей ввода */
+    border-radius: 5px;
+    background: #fafafa; /* Светлый фон для полей ввода */
+    color: #333333; /* Темный текст в полях ввода */
+}
+
+button {
+    background-color: #ff5733; /* Оранжевая кнопка */
+    color: #ffffff; /* Белый текст на кнопке */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавный переход для цвета */
+}
+
+button:hover {
+    background-color: #e74c3c; /* Темно-оранжевый при наведении */
+}
